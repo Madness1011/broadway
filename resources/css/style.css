@@ -29,8 +29,8 @@ h5 {
   font-family: Helvetica;
   font-size: 11px;
   color: white;
-  background-color: dimgray;
   text-align: left;
+  display: inline;
 }
 p {
   text-align: center;
@@ -42,8 +42,18 @@ p {
   font-family: Helvetica;
   font-size: 18px;
   color: white;
-  list-style: none;
 }
-.banner{
+.p02 {
+  text-align: left;
+  font-family: Helvetica;
+  font-size: 18px;
+  color: white;
+  display: inline;
+}
+.banner {
   background: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png") repeat;
+}
+.banner2 {
+  background: dimgray repeat;
+  text-align: left;
 }
